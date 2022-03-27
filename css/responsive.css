@@ -1,13 +1,22 @@
 @media screen and (max-width:  700px){
 	header .container{
 		display: flex;
-		flex-direction: column;
 	}
 	.botao{
 		margin-top: 5px;
 		height: 90px;
 		width: 210px;
 
+	}
+	.box-filme{
+		height: 90%;
+ 	 	width: 100%;
+  		display: block;
+	}
+	.filme-principal{
+		background-size: 120% 100%;
+		background-repeat: no-repeat;
+		background-position:left;
 	}
 }
 @media screen and (min-width: 1000px){

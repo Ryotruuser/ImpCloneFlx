@@ -16,11 +16,16 @@ body {
   color: white;
 }
 
+header{
+  background: #343a40;
+  border: 1px solid red;
+}
 header .container {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+
 }
 
 header .logo {
@@ -53,7 +58,6 @@ main {
   font-size: 16px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
     url("https://screenfiction.org/content/image/0/26/845/1e1e0858-full.webp");
-  height: 600px;
   /*width: 1080px;*/
   background-size: cover;
   display: flex;
@@ -65,7 +69,6 @@ main {
 .filme-principal .container {
   /*margin-left: 20px;*/
   /*border-radius: 10px;*/
-  padding-left: 20px;
 }
 
 .filme-principal .descricao {
@@ -105,7 +108,7 @@ main {
 }
 
 .box-filme{
-  height: 500px;
-  width: 400px;
+  height: 60%;
+  width: 70%;
   display: block;
 }
