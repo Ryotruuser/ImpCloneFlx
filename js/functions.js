@@ -21,3 +21,23 @@ window.onclick = function(event) {
     }
   }
 }
+
+function moreInfo (){
+  var sinopse = document.getElementById("sinopse");
+  if (sinopse.style.display === "none"){
+    sinopse.style.display = "block";
+    sinopse.style.transition = "all 7s";
+  } else{
+    sinopse.style.display = "none";
+  }
+};
+
+function showTrailer(){
+  var trailer = document.getElementById("trailer");
+  if(trailer.style.display ==="none"){
+    trailer.style.display = "block";
+  }else{
+    trailer.style.display = "none";
+  }
+
+}

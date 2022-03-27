@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
 :root {
   --vermelho: #e50914;
   --preta: #141414;
@@ -36,6 +37,7 @@ header .logo {
 
 header nav a {
   text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
   color: #aaa;
   margin-right: 10px;
 }
@@ -69,6 +71,7 @@ header nav a:hover {
   position: absolute;
   background-color: #343a40;
   min-width: 150px;
+  font-family: 'Josefin Sans', sans-serif;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -89,6 +92,9 @@ header nav a:hover {
 .dropBtNamai{
   color: #e50914;
   margin: 10%;
+}
+.respAcc{
+  display: none;
 }
 /*Filme Principal*/
 main {
@@ -111,19 +117,27 @@ main {
   align-items: flex-start;
 }
 .filme-principal .descricao {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   margin-top: 10px;
+  font-family: 'Josefin Sans', sans-serif;
   /*flex-wrap: wrap;*/
   /* width: 500px; */
+}
+.trailer{
+  bottom: 300;
+  width: 500px;
+  height: 300px;
+  margin-bottom: 10px;
 }
 
 .filme-principal .titulo {
   font-size: 40px;
   margin-top: 15%;
-  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .botoes{
   margin-bottom: 50px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .botao {
   background-color: rgba(0, 0, 0, 0.5);
@@ -145,10 +159,27 @@ main {
 .botao i {
   margin-right: 5px;
 }
-
+.maisInfo{
+  margin-top: 20px;
+}
+#sinopse{
+  display: none;
+  margin-top: 10px;
+  border-radius: 10px 30px 0px;
+  padding: 10px;
+  background: linear-gradient(90deg, rgba(229,9,20,1) 0%, rgba(0,212,255,0.025647759103641476) 100%);
+}
 .box-filme{
   height: 60%;
   width: 70%;
   display: block;
 }
+.item:hover{
+  border: 1px solid white;
 
+}
+
+/* we're here*/
+.index #index{
+	color: #E50914;
+}
