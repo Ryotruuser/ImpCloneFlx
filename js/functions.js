@@ -32,7 +32,7 @@ function moreInfo (){
   }
 };
 
-function showTrailer(){
+/*function showTrailer(){
   var trailer = document.getElementById("trailer");
   if(trailer.style.display ==="none"){
     trailer.style.display = "block";
@@ -40,4 +40,4 @@ function showTrailer(){
     trailer.style.display = "none";
   }
 
-}
+}*/
