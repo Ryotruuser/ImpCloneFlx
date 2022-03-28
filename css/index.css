@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+:root {
+    --vermelho: #e50914;
+    --preta: #141414;
+  }
+body{
+    background: #343a40;
+}
+/* don't bother to undestand this part of the code, it's late at night and i can't thin properly anymore srry*/
+.logo {
+    margin-left: 10px;
+    color: var(--vermelho);
+    font-family: "Arial Black", Times;
+    font-size: 40px;
+  }
+.logo a{
+    text-decoration: none;
+    color: var(--vermelho);
+  }
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    height: 100%;
+}
+.center{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+.icon{
+    background: url("../img/profile.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-right: 10%;
+    width: 200px;
+    height: 200px;
+    text-decoration: none;
+    color: white;
+}
+.icon:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.icon1{
+    background: url("../img/netflixx.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+}
+.icon2{
+    margin-top: 100px;
+    background: url("../img/git.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+}
+.bark{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%);
+    
+}
+.bark:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) 100%);
+}
+.name{
+    z-index: 9999;
+    
+}
+@media screen and (max-width:500px){
+    .center{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon1{
+        margin-top: 20px;
+    }
+    .texto{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+}

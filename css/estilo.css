@@ -34,6 +34,10 @@ header .logo {
   font-family: "Arial Black", Times;
   font-size: 40px;
 }
+.logo a{
+  text-decoration: none;
+  color: var(--vermelho);
+}
 
 header nav a {
   text-decoration: none;
@@ -73,7 +77,7 @@ header nav a:hover {
   min-width: 150px;
   font-family: 'Josefin Sans', sans-serif;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 9999;
 }
 .dropdown-content a {
   color: white;
@@ -108,7 +112,7 @@ main {
   border-radius: 10px;
   font-size: 16px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
-    url("https://screenfiction.org/content/image/0/26/845/1e1e0858-full.webp");
+    url("../img/fundo.webp");
   /*width: 1080px;*/
   background-size: cover;
   display: flex;
@@ -124,6 +128,7 @@ main {
   /* width: 500px; */
 }
 .trailer{
+  display: none;
   bottom: 300;
   width: 500px;
   height: 300px;
@@ -180,6 +185,21 @@ main {
 }
 
 /* we're here*/
-.index #index{
+.index #index,
+.series #series,
+.filmes #filmes,
+.news #news,
+.player #player{
 	color: #E50914;
+}
+
+.spacing{
+  margin-bottom: 5px;
+}
+.presentation{
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 10px;
+  background: rgb(229,9,20);
+  background: linear-gradient(90deg, rgba(229,9,20,0.4654236694677871) 0%, rgba(242,242,242,0.025647759103641476) 100%); 
+  border-radius: 360px 40px 600px 70px; 
 }

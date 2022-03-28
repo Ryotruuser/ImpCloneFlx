@@ -1,0 +1,28 @@
+.trailer{
+    display: block;
+    bottom: 300;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 10px;
+  }
+  .filme-principal {
+    border-radius: 10px;
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+      url("../img/arcane.jpg");
+    /*width: 1080px;*/
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  #sinopse{
+    display: none;
+    margin-top: 10px;
+    border-radius: 10px 30px 0px;
+    padding: 10px;
+    background: rgb(54,80,154);
+    background: linear-gradient(90deg, rgba(54,80,154,0.8799894957983193) 0%, rgba(83,25,76,0.3085609243697479) 100%);
+  }

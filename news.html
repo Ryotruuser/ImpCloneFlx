@@ -1,0 +1,149 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/x-icon" href="img/netflix.ico">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">  
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="css/news.css">
+  <!-- owl css -->
+  <link rel="stylesheet" type="text/css" href="css/owl/owl.carousel.min.css">
+  <link rel="stylesheet" type="text/css" href="css/owl/owl.theme.default.min.css">
+  <!--responsivid-->
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <title>Netflix CLone by Ryotsr - Documentarios</title>
+</head>
+
+<body class="news">
+  <header>
+    <div class="container"> <!-- header container inicio-->
+      <h2 class="logo"><a href="inicio.html">NETFLIX</a> </h2>
+      <nav class="mark navbar navbar-expand-sm navbar-dark bg-dark ">
+        <!--hambuguer-->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav-target">
+          <div class="navbar-nav ml-auto">
+            <a id="index" class="nav-item nav-link" href="inicio.html">Inicio</a>
+            <a id="series"class="nav-item nav-link" href="series.html">Series</a>
+            <a id="filmes"class="nav-item nav-link" href="filmes.html">Filmes</a>
+            <a id="news"class="nav-item nav-link" href="news.html">Novidades</a>
+            <a id="acc"class="nav-item nav-link respAcc" href="acc.html">Minha Conta</a>
+          </div>
+        </div>
+      </nav>
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn"></button>
+        <div id="myDropdown" class="dropdown-content">
+          <p class="dropBtNamai">Ryonantruuser</p>
+          <a href="https://github.com/Ryotruuser">Minha Conta</a>
+          <a href="linkedin.com/in/ryotruuser/">Favoritos</a>
+          <a href="https://www.instagram.com/ryotruuser/">Configurações</a>
+        </div>
+      </div>
+    </div><!-- header container fim-->  
+  </header>
+  <main>
+    <div class="filme-principal">
+      <div class="container">
+        <h3 class="titulo">ARCANE</h3>
+        <p class="descricao">
+          Em meio ao conflito entre as cidades-gêmeas de Piltover e Zaun, duas irmãs lutam em lados opostos de uma guerra entre tecnologias mágicas e convicções incompatíveis.
+        </p>
+        
+        <div id="trailer" class="trailer">
+          <iframe width="560" height="300" src="https://www.youtube.com/embed/3MB3OK3Xnvs?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>  
+        <div class="botoes">
+          <button onclick="avascript:window.location.href='play/player.html'" role="button" class="botao">
+            <i class="fas fa-play"></i>
+            ASSISTIR AGORA
+          </button>
+          <button onclick="moreInfo()" role="button" class="botao">
+            <i class="fas fa-info-circle"></i>
+            MAIS INFORMAÇÕES
+          </button>
+          <div id="sinopse">
+            <p class="maisInfo">
+              Acompanhe Powder virar a famosa Jinx do universo de League of Legends<br>
+              Animação, Sci-Fi & Fantasy, Action & Adventure, Drama,39m<br> 
+              Classificação 14, 91% Avaliação dos usuarios. 
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+  <div class="carrousel-filmes">
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <a href="play/player.html"><img class="box-filme"src="img/soon1.jpg"></a>
+        
+      </div>
+
+      <div class="item">
+        <a href="play/player.html"><img class="box-filme"src="img/soon2.jpg"></a>
+        
+      </div>
+
+      <div class="item">
+        <a href="play/player.html"><img class="box-filme"src="img/soon3.jpg"></a>
+        
+      </div>
+
+      <div class="item">
+        <a href="play/player.html"><img class="box-filme"src="img/soon4.jpg"></a>
+        
+      </div>
+
+      <div class="item">
+        <a href="play/player.html"><img class="box-filme"src="img/soon5.jpg"></a>
+        
+      </div>
+
+      <div class="item">
+        <a href="play/player.html"><img class="box-filme"src="img/soon6.jpg"></a>
+        
+      </div>
+
+      <div class="item">
+        <a href="play/player.html"><img class="box-filme"src="img/soon7.jpg"></a>
+        
+      </div>
+
+      <div class="item">
+        <a href="play/player.html"><img class="box-filme"src="img/soon8.jpg"></a>
+        
+      </div>
+
+      <div class="item">
+        <a href="play/player.html"><img class="box-filme"src="img/soon9.jpg"></a>
+        
+      </div>
+
+      <div class="item">
+        <a href="play/player.html"><img class="box-filme"src="img/soon10.jpg"></a>
+        
+      </div>
+    
+    </div>    
+  </div>
+
+  <script src="https://kit.fontawesome.com/c4f5d61dce.js" crossorigin="anonymous"></script>
+  <script src="js/owl/jquery.min.js"></script>
+  <script src="js/owl/owl.carousel.min.js"></script>
+  <script src="js/owl/setup.js"></script>
+  <script src="js/functions.js"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
