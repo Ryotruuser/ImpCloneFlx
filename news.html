@@ -14,7 +14,7 @@
   <link rel="stylesheet" type="text/css" href="css/owl/owl.theme.default.min.css">
   <!--responsivid-->
   <link rel="stylesheet" type="text/css" href="css/responsive.css">
-  <title>Netflix CLone by Ryotsr - Documentarios</title>
+  <title>Netflix CLone by Ryotsr - Novidades</title>
 </head>
 
 <body class="news">
@@ -49,6 +49,16 @@
   </header>
   <main>
     <div class="filme-principal">
+      <!--botão voltar inicio-->
+      <div onmouseover="expandir()" onmouseout="fechar()" id="divExpand"class="back" style="border:1px solid red;">
+        <div class="backlink">
+          <a href="index.html" class="backlink">
+            <img id="expandIcon"class="backicon" src="img/back4.png">
+            <h6 id="expandText" class="backtext">VOLTAR</h6>
+          </a>
+        </div>
+      </div>
+      <!--botão voltar final-->
       <div class="container">
         <h3 class="titulo">ARCANE</h3>
         <p class="descricao">
@@ -59,7 +69,7 @@
           <iframe width="560" height="300" src="https://www.youtube.com/embed/3MB3OK3Xnvs?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>  
         <div class="botoes">
-          <button onclick="avascript:window.location.href='play/player.html'" role="button" class="botao">
+          <button onclick="javascript:window.location.href='player.html'" role="button" class="botao">
             <i class="fas fa-play"></i>
             ASSISTIR AGORA
           </button>
@@ -82,52 +92,52 @@
   <div class="carrousel-filmes">
     <div class="owl-carousel owl-theme">
       <div class="item">
-        <a href="play/player.html"><img class="box-filme"src="img/soon1.jpg"></a>
+        <a href="player.html"><img class="box-filme"src="img/soon1.jpg"></a>
         
       </div>
 
       <div class="item">
-        <a href="play/player.html"><img class="box-filme"src="img/soon2.jpg"></a>
+        <a href="player.html"><img class="box-filme"src="img/soon2.jpg"></a>
         
       </div>
 
       <div class="item">
-        <a href="play/player.html"><img class="box-filme"src="img/soon3.jpg"></a>
+        <a href="player.html"><img class="box-filme"src="img/soon3.jpg"></a>
         
       </div>
 
       <div class="item">
-        <a href="play/player.html"><img class="box-filme"src="img/soon4.jpg"></a>
+        <a href="player.html"><img class="box-filme"src="img/soon4.jpg"></a>
         
       </div>
 
       <div class="item">
-        <a href="play/player.html"><img class="box-filme"src="img/soon5.jpg"></a>
+        <a href="player.html"><img class="box-filme"src="img/soon5.jpg"></a>
         
       </div>
 
       <div class="item">
-        <a href="play/player.html"><img class="box-filme"src="img/soon6.jpg"></a>
+        <a href="player.html"><img class="box-filme"src="img/soon6.jpg"></a>
         
       </div>
 
       <div class="item">
-        <a href="play/player.html"><img class="box-filme"src="img/soon7.jpg"></a>
+        <a href="player.html"><img class="box-filme"src="img/soon7.jpg"></a>
         
       </div>
 
       <div class="item">
-        <a href="play/player.html"><img class="box-filme"src="img/soon8.jpg"></a>
+        <a href="player.html"><img class="box-filme"src="img/soon8.jpg"></a>
         
       </div>
 
       <div class="item">
-        <a href="play/player.html"><img class="box-filme"src="img/soon9.jpg"></a>
+        <a href="player.html"><img class="box-filme"src="img/soon9.jpg"></a>
         
       </div>
 
       <div class="item">
-        <a href="play/player.html"><img class="box-filme"src="img/soon10.jpg"></a>
+        <a href="player.html"><img class="box-filme"src="img/soon10.jpg"></a>
         
       </div>
     
@@ -139,6 +149,7 @@
   <script src="js/owl/owl.carousel.min.js"></script>
   <script src="js/owl/setup.js"></script>
   <script src="js/functions.js"></script>
+  <script src="js/reveal.js"></script>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

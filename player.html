@@ -1,0 +1,103 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/x-icon" href="img/netflix.ico">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">  
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/news.css">
+    <!-- owl css -->
+    <link rel="stylesheet" type="text/css" href="css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl/owl.theme.default.min.css">
+    <!--responsivid-->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <title>Reproduzindo...</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="container"> <!-- header container inicio-->
+              <h2 class="logo"><a href="inicio.html">NETFLIX</a> </h2>
+              <nav class="mark navbar navbar-expand-sm navbar-dark bg-dark ">
+                <!--hambuguer-->
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nav-target">
+                  <div class="navbar-nav ml-auto">
+                    <a id="index" class="nav-item nav-link" href="inicio.html">Inicio</a>
+                    <a id="news"class="nav-item nav-link" href="news.html">Novidades</a>
+                    <a id="series"class="nav-item nav-link" href="series.html">Series</a>
+                    <a id="filmes"class="nav-item nav-link" href="filmes.html">Filmes</a>
+                    <a id="acc"class="nav-item nav-link respAcc" href="acc.html">Minha Conta</a>
+                  </div>
+                </div>
+              </nav>
+              <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn"></button>
+                <div id="myDropdown" class="dropdown-content">
+                  <p class="dropBtNamai">Ryonantruuser</p>
+                  <a href="https://github.com/Ryotruuser">Minha Conta</a>
+                  <a href="https://www.linkedin.com/in/ryotruuser/">Favoritos</a>
+                  <a href="https://www.instagram.com/ryotruuser/">Configurações</a>
+                </div>
+              </div>
+            </div><!-- header container fim-->  
+        </header>
+        <script src="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.js"></script>
+            <video poster="img/netflix.png" id="video-id" width="100%" height="100%" autoplay="false">
+                <source src="https://www.youtube.com/watch?v=jprEnT6tS4I&feature=emb_title" type="video/mp4" />
+            <script>
+                var myFP = fluidPlayer(
+                    'video-id', {
+                "layoutControls": {
+                    "controlBar": {
+                        "autoHideTimeout": 3,
+                        "animated": true,
+                        "autoHide": true
+                    },
+                    "htmlOnPauseBlock": {
+                        "html": null,
+                        "height": "",
+                        "width": null
+                    },
+                    "autoPlay": true,
+                    "mute": true,
+                    "allowTheatre": false,
+                    "playPauseAnimation": true,
+                    "playbackRateEnabled": true,
+                    "allowDownload": false,
+                    "playButtonShowing": true,
+                    "fillToContainer": false,
+                    "posterImage": ""
+                },
+                "vastOptions": {
+                    "adList": [],
+                    "adCTAText": false,
+                    "adCTATextPosition": ""
+                }
+            })
+
+            </script>
+        </script>
+        
+
+    </main>
+    
+    <script src="https://kit.fontawesome.com/c4f5d61dce.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    <script src="js/functions.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
